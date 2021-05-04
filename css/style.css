@@ -1,0 +1,25 @@
+		body{
+			background:skyblue;
+		}
+		table{
+				width: 60%;
+				margin:auto;
+				text-align:center;
+	}
+		table, tr, th, td{
+			padding: 20px 20px;
+			color:red;
+			border: 2px solid #080808;
+			border-collapse:collapse;
+			/* background:(top, #3c3c3c 0%, #222222 100%);
+			background:(top, #3c3c3c 0%, #222222 100%); */
+	}
+		td:hover{
+			background:white;
+			cursor: pointer;
+}
+.image-wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 70px;
+}
